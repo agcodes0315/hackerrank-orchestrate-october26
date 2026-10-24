@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+ghosttrace_*.json
+inspection_report.json
