@@ -25,9 +25,9 @@ STATES = {'REPORT_REMAINING_RECORD':'PRESENT','REPORT_EXPOSED_PII':'PRESENT','RE
           'VERIFY_RECORD_ANONYMIZED':'ANONYMIZED','VERIFY_DATA_FLOW_DISABLED':'DISABLED','VERIFY_RESTORE_BLOCKED':'BLOCKED'}
 CATEGORIES = {'USER_PROFILE','SECONDARY_IDENTIFIER','SEARCH_INDEX_ENTRY','CACHE_ENTRY','SUPPORT_MESSAGE','SUPPORT_ATTACHMENT','ANALYTICS_PROFILE',
               'PRODUCT_TELEMETRY','USER_EXPORT','MARKETING_PROFILE','EMAIL_DELIVERY_LOG','SECURITY_AUDIT_LOG','LEGAL_HOLD_RECORD','BACKUP_ARCHIVE','ACCOUNT_TOMBSTONE'}
-ID_KEYS = {'user_id','email','email_hash','phone','name','old_email','new_email','recipient_email','customer_email','account_email','subject_email'}
+ID_KEYS = {'user_id','email','email_hash','phone','name','old_email','new_email','recipient_email','customer_email','account_email','subject_email','subject_reference','lookup_value'}
 META_KEYS = {'system_id','resource_id','data_category','category','record_type','state','status','snapshot_at','captured_at','timestamp','observed_at',
-             'event_time','event_at','occurred_at','updated_at','file_id','activity_id','audit_id','id','table','table_name'}
+             'event_time','event_at','occurred_at','recorded_at','updated_at','file_id','activity_id','audit_id','id','table','table_name'}
 PII_FIELDS = {'name','email','email_hash','phone','first_name','last_name','full_name','customer_email','recipient_email','address'}
 
 
@@ -112,8 +112,8 @@ class EvidenceStore:
         system=str(row.get('system_id') or row.get('system') or row.get('service') or fallback_system or '').strip()
         resource=str(row.get('resource_id') or row.get('record_id') or row.get('entity_id') or row.get('id') or '').strip()
         category=str(row.get('data_category') or row.get('category') or row.get('record_type') or fallback_category or '').upper()
-        state=str(row.get('state') or row.get('status') or row.get('record_state') or '').upper()
-        observed=str(row.get('snapshot_at') or row.get('captured_at') or row.get('observed_at') or row.get('timestamp') or when or '')
+        state=normalized_state(row.get('state') or row.get('status') or row.get('record_state') or row.get('result') or '')
+        observed=str(row.get('snapshot_at') or row.get('captured_at') or row.get('observed_at') or row.get('timestamp') or row.get('recorded_at') or when or '')
         if not (system and resource): return
         self.observations.append(Observation(system,resource,category,state,file_id,observed,row,source))
 
@@ -165,13 +165,54 @@ def identity_terms(identity):
     return {k:set(map(norm,values)) for k,values in fields.items()}
 
 
+def _reference_match(value, identity):
+    """Exact identifier in a typed reference, not substring PII guessing.
+
+    Supports scalar values, key=value / key:value references, and JSON dictionaries.
+    Does not equate two different users based on a shared partial substring.
+    """
+    if value is None or isinstance(value, bool):
+        return False
+    ids=identity_terms(identity)
+    identifiers={v for vals in ids.values() for v in vals if v}
+    if not identifiers: return False
+    if isinstance(value,dict):
+        return any(_reference_match(v,identity) for v in value.values())
+    if isinstance(value,list):
+        return any(_reference_match(v,identity) for v in value)
+    raw=norm(value)
+    if raw in identifiers: return True
+    if raw.startswith(('{','[')):
+        try: return _reference_match(json.loads(str(value)),identity)
+        except (ValueError,TypeError): pass
+    # Strong equality only: we do not match emails appearing inside unrelated prose.
+    typed=re.fullmatch(r'[a-z_][a-z_0-9]*\s*[:=]\s*[\"\']?([^\"\']+?)[\"\']?',raw)
+    if typed and norm(typed.group(1)) in identifiers: return True
+    return False
+
+
 def matches_identity(obs,identity):
     ids=identity_terms(identity)
-    for key, values in obs.fields.items():
+    for key, value in obs.fields.items():
         k=norm(key)
-        if k in ID_KEYS and norm(values) and norm(values) in ids.get(k,set()): return True
-        if k in ('old_value','new_value') and norm(values) and any(norm(values) in vv for vv in ids.values()): return True
+        if k in ID_KEYS and _reference_match(value,identity): return True
+        if k in ('old_value','new_value') and _reference_match(value,identity): return True
     return False
+
+
+def normalized_state(raw):
+    """Translate only unambiguous evidence results; other values remain unknown."""
+    x=norm(raw).replace(' ','_')
+    known={
+      'present':'PRESENT','exists':'PRESENT','found':'PRESENT',
+      'absent':'ABSENT','not_found':'ABSENT','missing':'ABSENT',
+      'deleted':'ABSENT','removed':'ABSENT',
+      'redacted':'REDACTED','sanitized':'REDACTED',
+      'anonymized':'ANONYMIZED','anonymous':'ANONYMIZED',
+      'active':'ACTIVE','enabled':'ACTIVE','disabled':'DISABLED',
+      'blocked':'BLOCKED',
+    }
+    return known.get(x,'')
 
 
 def policy_action(category,fields,rules):
@@ -240,6 +281,9 @@ def audit_case(case,identity,store,rules):
         key=(obs.system_id,obs.resource_id)
         if key not in latest or parse_time(obs.captured_at)>parse_time(latest[key].captured_at): latest[key]=obs
     for obs in latest.values():
+        if not obs.state:
+            review.append(f'unknown evidence result for {obs.system_id}/{obs.resource_id}; cannot infer state')
+            continue
         action=policy_action(obs.category,obs.fields,rules)
         if action is None:
             review.append(f'Unknown policy category on {obs.system_id}/{obs.resource_id}: {obs.category or "missing"}'); continue
