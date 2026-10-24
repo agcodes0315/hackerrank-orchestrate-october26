@@ -1,12 +1,10 @@
-# Model usage — provisional
+# Model usage report — pending full dataset execution
 
-Phase 2 deterministic baseline uses **no external language model**. For this package only:
+## Provider and model
 
-- Model providers: none
-- Model calls: 0
-- Input tokens: 0
-- Output tokens: 0
-- Total and average language-model tokens per case: 0
-- Estimated API inference cost: $0
+- Deterministic core uses Python, CSV, SQLite, and JSON: no model calls.
+- Optional policy advisor: local Ollama, model selectable (example `gemma3:4b`).
+- **Model calls performed in package development/test environment: 0**. Validation/unit tests do not constitute model inference.
+- **Input tokens observed: none**; **output tokens observed: none**; **actual runtime or compute costs: not measured**.
 
-**Not a final submission usage report.** Regenerate and document the full 518-case run and any actual Gemma or other LLM calls used in that run, together with model IDs, actual token counts, and pricing assumptions. Do not invent metrics.
+When you invoke the real model, `ghosttrace_model_usage.jsonl` records returned `prompt_eval_count` and `eval_count` for each successful validated call. Transfer verified totals, average tokens per actual call, specific model IDs, hardware/compute details and cost methodology to this report before submission. Never invent usage estimates as actual figures.
