@@ -25,7 +25,7 @@ STATES = {'REPORT_REMAINING_RECORD':'PRESENT','REPORT_EXPOSED_PII':'PRESENT','RE
           'VERIFY_RECORD_ANONYMIZED':'ANONYMIZED','VERIFY_DATA_FLOW_DISABLED':'DISABLED','VERIFY_RESTORE_BLOCKED':'BLOCKED'}
 CATEGORIES = {'USER_PROFILE','SECONDARY_IDENTIFIER','SEARCH_INDEX_ENTRY','CACHE_ENTRY','SUPPORT_MESSAGE','SUPPORT_ATTACHMENT','ANALYTICS_PROFILE',
               'PRODUCT_TELEMETRY','USER_EXPORT','MARKETING_PROFILE','EMAIL_DELIVERY_LOG','SECURITY_AUDIT_LOG','LEGAL_HOLD_RECORD','BACKUP_ARCHIVE','ACCOUNT_TOMBSTONE'}
-ID_KEYS = {'user_id','email','email_hash','phone','name','old_email','new_email','recipient_email','customer_email','account_email','subject_email','subject_reference','lookup_value'}
+ID_KEYS = {'user_id','email','email_hash','phone','name','old_email','new_email','recipient_email','customer_email','account_email','subject_email','subject_reference','lookup_value','lookup_key','match_key','subject_key','scan_key','correlation_key','customer_reference','requester_email','matched_value'}
 META_KEYS = {'system_id','resource_id','data_category','category','record_type','state','status','snapshot_at','captured_at','timestamp','observed_at',
              'event_time','event_at','occurred_at','recorded_at','updated_at','file_id','activity_id','audit_id','id','table','table_name'}
 PII_FIELDS = {'name','email','email_hash','phone','first_name','last_name','full_name','customer_email','recipient_email','address'}
@@ -49,17 +49,43 @@ def tokens(text):
 
 
 def deletion_intent(text):
-    """Tri-state (True, False, None); never treat uncertain messages as authorized."""
+    """Classify explicit deletion intent without trusting reported workflow status.
+
+    Multilingual markers cover unambiguous account-erasure requests. Ambiguous
+    verification or historical descriptions stay None unless remediation is asked.
+    """
     t = norm(text)
-    negatives = [r'\b(?:do not|don\'t|never|without)\s+(?:delete|erase|remove|close)\b',
-                 r'\b(?:not|no)\s+(?:requesting|asking for)\s+(?:deletion|erasure)\b',
-                 r'\b(?:instead of|rather than)\s+(?:deleting|erasing)\b',
-                 r'\b(?:keep|retain)\s+my\s+(?:account|data)\b']
-    if any(re.search(p,t) for p in negatives): return False
-    if any(re.search(p,t) for p in [r'\b(?:delete|erase|erasure|deletion|forget me|right to be forgotten)\b',
-                                     r'\b(?:close|terminate)\s+(?:my|the)\s+account\b',
-                                     r'\bremove\s+(?:all\s+)?(?:my|personal|account)\s+(?:data|information|details)\b']): return True
-    if any(re.search(p,t) for p in [r'\b(?:export|download|correct|update|access|unsubscribe|opt out|opt-out)\b']): return False
+    negatives = [
+        r"\b(?:do not|don't|never|without)\s+(?:delete|erase|remove|close)\b",
+        r"\b(?:not|no)\s+(?:requesting|asking for)\s+(?:deletion|erasure)\b",
+        r"\b(?:instead of|rather than)\s+(?:deleting|erasing)\b",
+        r"\b(?:keep|retain)\s+my\s+(?:account|data)\b",
+    ]
+    if any(re.search(p, t) for p in negatives):
+        return False
+
+    affirmative = [
+        r"\b(?:delete|erase|erasure|deletion|forget me|right to be forgotten)\b",
+        r"\b(?:deleting|deleted)\s+my\s+account\b",
+        r"\b(?:close|terminate)\s+(?:my|the|this)\s+account\b",
+        r"\b(?:account|profile)\s+(?:to\s+be\s+)?(?:permanently\s+)?(?:deleted|erased|removed)\b",
+        r"\b(?:account|profile)\b[^.!?]{0,90}\bto be (?:permanently )?(?:erased|deleted|removed)\b",
+        r"\bwould like (?:it|the account|my account) (?:to be )?(?:permanently )?(?:deleted|erased)\b",
+        r"\bremove\s+(?:(?:all|any|remaining)\s+)?(?:my|personal|account)\s+(?:data|information|details|records)\b",
+        r"\bremove\s+(?:my|the|this)\s+(?:account|profile)\b",
+        r"\bremove\s+(?:records|copies|traces)\s+(?:linked|tied|relating|associated)\b",
+        r"\b(?:remove|clean)\s+(?:my\s+)?(?:name|contact details|personal details)\b",
+        # Strong account-deletion requests in French, Spanish, Portuguese.
+        r"\b(?:suppression d[eé]finitive|supprimer (?:mon|le) compte|effacer (?:mon|mes))\b",
+        r"\b(?:eliminaci[oó]n permanente|eliminar mi cuenta|eliminaci[oó]n de (?:mi|la) cuenta)\b",
+        r"\b(?:exclus[aã]o permanente|excluir (?:minha|a) conta)\b",
+        # Exact strong account-deletion expressions (Japanese / Korean).
+        r"アカウントの完全な削除", r"アカウント.*削除を依頼", r"계정의 영구 삭제", r"계정.*삭제를 요청",
+    ]
+    if any(re.search(p, t) for p in affirmative):
+        return True
+    if re.search(r"\b(?:export|download|correct|update|access|unsubscribe|opt out|opt-out)\b", t):
+        return False
     return None
 
 
@@ -129,6 +155,10 @@ class EvidenceStore:
                 if suffix=='.json':
                     obj=json.loads(path.read_text(encoding='utf-8-sig'))
                     for row in json_records(obj): self._add(row,fid,when)
+                    if isinstance(obj,dict) and isinstance(obj.get('service_exports'),dict):
+                        from service_readbacks import extract_service_exports
+                        for row in extract_service_exports(obj):
+                            self._add(row,fid,when)
                 elif suffix=='.sql':
                     db=sqlite3.connect(':memory:')
                     try:
@@ -144,6 +174,10 @@ class EvidenceStore:
                                 self._add(row,fid,when,fallback_system=manifest.get('system_id',''))
                     finally: db.close()
                 elif suffix in ('.log','.txt'):
+                    if suffix=='.log':
+                        from log_evidence import extract
+                        for row in extract(path):
+                            self._add(row,fid,when)
                     for line in path.read_text(encoding='utf-8-sig',errors='replace').splitlines():
                         if line.lstrip().startswith('{'):
                             try:
@@ -195,7 +229,7 @@ def matches_identity(obs,identity):
     ids=identity_terms(identity)
     for key, value in obs.fields.items():
         k=norm(key)
-        if k in ID_KEYS and _reference_match(value,identity): return True
+        if k in ID_KEYS | {'owner_email','owner_phone','requester_phone','query'} and _reference_match(value,identity): return True
         if k in ('old_value','new_value') and _reference_match(value,identity): return True
     return False
 
@@ -283,6 +317,26 @@ def audit_case(case,identity,store,rules):
     for obs in latest.values():
         if not obs.state:
             review.append(f'unknown evidence result for {obs.system_id}/{obs.resource_id}; cannot infer state')
+            continue
+        if obs.category=='BACKUP_ARCHIVE' and obs.state in ('ACTIVE','BLOCKED'):
+            if obs.state=='ACTIVE':
+                steps.extend([make_step('FINDING',obs.system_id,obs.resource_id,'REPORT_RESTORE_RISK',obs.evidence_id),
+                              make_step('REMEDIATION',obs.system_id,obs.resource_id,'BLOCK_RESTORE'),
+                              make_step('VERIFICATION',obs.system_id,obs.resource_id,'VERIFY_RESTORE_BLOCKED')])
+                issues.append((obs.system_id,obs.resource_id))
+            else:
+                steps.append(make_step('VERIFICATION',obs.system_id,obs.resource_id,'VERIFY_RESTORE_BLOCKED',obs.evidence_id))
+            continue
+        if obs.category=='DATA_FLOW':
+            if obs.state=='ACTIVE':
+                steps.extend([make_step('FINDING',obs.system_id,obs.resource_id,'REPORT_ACTIVE_DATA_FLOW',obs.evidence_id),
+                              make_step('REMEDIATION',obs.system_id,obs.resource_id,'DISABLE_DATA_FLOW'),
+                              make_step('VERIFICATION',obs.system_id,obs.resource_id,'VERIFY_DATA_FLOW_DISABLED')])
+                issues.append((obs.system_id,obs.resource_id))
+            elif obs.state=='DISABLED':
+                steps.append(make_step('VERIFICATION',obs.system_id,obs.resource_id,'VERIFY_DATA_FLOW_DISABLED',obs.evidence_id))
+            else:
+                review.append(f'unknown data flow state on {obs.system_id}/{obs.resource_id}')
             continue
         action=policy_action(obs.category,obs.fields,rules)
         if action is None:

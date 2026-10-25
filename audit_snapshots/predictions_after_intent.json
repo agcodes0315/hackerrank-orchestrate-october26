@@ -1,0 +1,780 @@
+[
+  {
+    "case_id": "case_135",
+    "deletion_status": "COMPLETE",
+    "steps_json": [
+      {
+        "step_no": 1,
+        "phase": "VERIFICATION",
+        "system_id": "account_service",
+        "resource_id": "account_1417",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": "evidence_13"
+      },
+      {
+        "step_no": 2,
+        "phase": "VERIFICATION",
+        "system_id": "security_service",
+        "resource_id": "audit_record_5140",
+        "operation": "VERIFY_RECORD_PRESENT",
+        "state": "PRESENT",
+        "evidence_id": "evidence_13"
+      }
+    ]
+  },
+  {
+    "case_id": "case_137",
+    "deletion_status": "COMPLETE",
+    "steps_json": [
+      {
+        "step_no": 1,
+        "phase": "VERIFICATION",
+        "system_id": "account_service",
+        "resource_id": "account_3734",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": "evidence_13"
+      },
+      {
+        "step_no": 2,
+        "phase": "VERIFICATION",
+        "system_id": "security_service",
+        "resource_id": "audit_record_6779",
+        "operation": "VERIFY_RECORD_PRESENT",
+        "state": "PRESENT",
+        "evidence_id": "evidence_13"
+      }
+    ]
+  },
+  {
+    "case_id": "case_139",
+    "deletion_status": "INCOMPLETE",
+    "steps_json": [
+      {
+        "step_no": 1,
+        "phase": "FINDING",
+        "system_id": "account_service",
+        "resource_id": "account_907",
+        "operation": "REPORT_REMAINING_RECORD",
+        "state": "PRESENT",
+        "evidence_id": "evidence_13"
+      },
+      {
+        "step_no": 2,
+        "phase": "FINDING",
+        "system_id": "search_service",
+        "resource_id": "search_6677",
+        "operation": "REPORT_REMAINING_RECORD",
+        "state": "PRESENT",
+        "evidence_id": "evidence_13"
+      },
+      {
+        "step_no": 3,
+        "phase": "REMEDIATION",
+        "system_id": "account_service",
+        "resource_id": "account_907",
+        "operation": "DELETE_RECORD",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 4,
+        "phase": "REMEDIATION",
+        "system_id": "search_service",
+        "resource_id": "search_6677",
+        "operation": "DELETE_RECORD",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 5,
+        "phase": "VERIFICATION",
+        "system_id": "account_service",
+        "resource_id": "account_907",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 6,
+        "phase": "VERIFICATION",
+        "system_id": "search_service",
+        "resource_id": "search_6677",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": ""
+      }
+    ]
+  },
+  {
+    "case_id": "case_141",
+    "deletion_status": "INCOMPLETE",
+    "steps_json": [
+      {
+        "step_no": 1,
+        "phase": "FINDING",
+        "system_id": "account_service",
+        "resource_id": "account_923",
+        "operation": "REPORT_REMAINING_RECORD",
+        "state": "PRESENT",
+        "evidence_id": "evidence_13"
+      },
+      {
+        "step_no": 2,
+        "phase": "FINDING",
+        "system_id": "search_service",
+        "resource_id": "search_460",
+        "operation": "REPORT_REMAINING_RECORD",
+        "state": "PRESENT",
+        "evidence_id": "evidence_13"
+      },
+      {
+        "step_no": 3,
+        "phase": "REMEDIATION",
+        "system_id": "account_service",
+        "resource_id": "account_923",
+        "operation": "DELETE_RECORD",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 4,
+        "phase": "REMEDIATION",
+        "system_id": "search_service",
+        "resource_id": "search_460",
+        "operation": "DELETE_RECORD",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 5,
+        "phase": "VERIFICATION",
+        "system_id": "account_service",
+        "resource_id": "account_923",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 6,
+        "phase": "VERIFICATION",
+        "system_id": "search_service",
+        "resource_id": "search_460",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": ""
+      }
+    ]
+  },
+  {
+    "case_id": "case_237",
+    "deletion_status": "INCOMPLETE",
+    "steps_json": [
+      {
+        "step_no": 1,
+        "phase": "FINDING",
+        "system_id": "account_service",
+        "resource_id": "account_2788",
+        "operation": "REPORT_REMAINING_RECORD",
+        "state": "PRESENT",
+        "evidence_id": "evidence_22"
+      },
+      {
+        "step_no": 2,
+        "phase": "FINDING",
+        "system_id": "search_service",
+        "resource_id": "search_2433",
+        "operation": "REPORT_REMAINING_RECORD",
+        "state": "PRESENT",
+        "evidence_id": "evidence_22"
+      },
+      {
+        "step_no": 3,
+        "phase": "REMEDIATION",
+        "system_id": "account_service",
+        "resource_id": "account_2788",
+        "operation": "DELETE_RECORD",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 4,
+        "phase": "REMEDIATION",
+        "system_id": "search_service",
+        "resource_id": "search_2433",
+        "operation": "DELETE_RECORD",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 5,
+        "phase": "VERIFICATION",
+        "system_id": "account_service",
+        "resource_id": "account_2788",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 6,
+        "phase": "VERIFICATION",
+        "system_id": "search_service",
+        "resource_id": "search_2433",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": ""
+      }
+    ]
+  },
+  {
+    "case_id": "case_238",
+    "deletion_status": "COMPLETE",
+    "steps_json": [
+      {
+        "step_no": 1,
+        "phase": "VERIFICATION",
+        "system_id": "account_service",
+        "resource_id": "account_945",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": "evidence_22"
+      },
+      {
+        "step_no": 2,
+        "phase": "VERIFICATION",
+        "system_id": "security_service",
+        "resource_id": "audit_record_6797",
+        "operation": "VERIFY_RECORD_PRESENT",
+        "state": "PRESENT",
+        "evidence_id": "evidence_22"
+      }
+    ]
+  },
+  {
+    "case_id": "case_239",
+    "deletion_status": "COMPLETE",
+    "steps_json": [
+      {
+        "step_no": 1,
+        "phase": "VERIFICATION",
+        "system_id": "account_service",
+        "resource_id": "account_2838",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": "evidence_22"
+      },
+      {
+        "step_no": 2,
+        "phase": "VERIFICATION",
+        "system_id": "security_service",
+        "resource_id": "audit_record_4940",
+        "operation": "VERIFY_RECORD_PRESENT",
+        "state": "PRESENT",
+        "evidence_id": "evidence_22"
+      }
+    ]
+  },
+  {
+    "case_id": "case_240",
+    "deletion_status": "INCOMPLETE",
+    "steps_json": [
+      {
+        "step_no": 1,
+        "phase": "FINDING",
+        "system_id": "export_service",
+        "resource_id": "export_5242",
+        "operation": "REPORT_REMAINING_RECORD",
+        "state": "PRESENT",
+        "evidence_id": "evidence_22"
+      },
+      {
+        "step_no": 2,
+        "phase": "FINDING",
+        "system_id": "search_service",
+        "resource_id": "search_9335",
+        "operation": "REPORT_REMAINING_RECORD",
+        "state": "PRESENT",
+        "evidence_id": "evidence_22"
+      },
+      {
+        "step_no": 3,
+        "phase": "REMEDIATION",
+        "system_id": "export_service",
+        "resource_id": "export_5242",
+        "operation": "DELETE_RECORD",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 4,
+        "phase": "REMEDIATION",
+        "system_id": "search_service",
+        "resource_id": "search_9335",
+        "operation": "DELETE_RECORD",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 5,
+        "phase": "VERIFICATION",
+        "system_id": "export_service",
+        "resource_id": "export_5242",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 6,
+        "phase": "VERIFICATION",
+        "system_id": "search_service",
+        "resource_id": "search_9335",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": ""
+      }
+    ]
+  },
+  {
+    "case_id": "case_333",
+    "deletion_status": "INCOMPLETE",
+    "steps_json": [
+      {
+        "step_no": 1,
+        "phase": "FINDING",
+        "system_id": "account_service",
+        "resource_id": "account_2475",
+        "operation": "REPORT_REMAINING_RECORD",
+        "state": "PRESENT",
+        "evidence_id": "evidence_31"
+      },
+      {
+        "step_no": 2,
+        "phase": "FINDING",
+        "system_id": "search_service",
+        "resource_id": "search_5970",
+        "operation": "REPORT_REMAINING_RECORD",
+        "state": "PRESENT",
+        "evidence_id": "evidence_31"
+      },
+      {
+        "step_no": 3,
+        "phase": "REMEDIATION",
+        "system_id": "account_service",
+        "resource_id": "account_2475",
+        "operation": "DELETE_RECORD",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 4,
+        "phase": "REMEDIATION",
+        "system_id": "search_service",
+        "resource_id": "search_5970",
+        "operation": "DELETE_RECORD",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 5,
+        "phase": "VERIFICATION",
+        "system_id": "account_service",
+        "resource_id": "account_2475",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 6,
+        "phase": "VERIFICATION",
+        "system_id": "search_service",
+        "resource_id": "search_5970",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": ""
+      }
+    ]
+  },
+  {
+    "case_id": "case_336",
+    "deletion_status": "COMPLETE",
+    "steps_json": [
+      {
+        "step_no": 1,
+        "phase": "VERIFICATION",
+        "system_id": "account_service",
+        "resource_id": "account_2282",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": "evidence_31"
+      },
+      {
+        "step_no": 2,
+        "phase": "VERIFICATION",
+        "system_id": "security_service",
+        "resource_id": "audit_record_5022",
+        "operation": "VERIFY_RECORD_PRESENT",
+        "state": "PRESENT",
+        "evidence_id": "evidence_31"
+      }
+    ]
+  },
+  {
+    "case_id": "case_339",
+    "deletion_status": "COMPLETE",
+    "steps_json": [
+      {
+        "step_no": 1,
+        "phase": "VERIFICATION",
+        "system_id": "account_service",
+        "resource_id": "account_1340",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": "evidence_31"
+      },
+      {
+        "step_no": 2,
+        "phase": "VERIFICATION",
+        "system_id": "security_service",
+        "resource_id": "audit_record_2922",
+        "operation": "VERIFY_RECORD_PRESENT",
+        "state": "PRESENT",
+        "evidence_id": "evidence_31"
+      }
+    ]
+  },
+  {
+    "case_id": "case_383",
+    "deletion_status": "COMPLETE",
+    "steps_json": [
+      {
+        "step_no": 1,
+        "phase": "VERIFICATION",
+        "system_id": "account_service",
+        "resource_id": "account_5043",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": "evidence_36"
+      },
+      {
+        "step_no": 2,
+        "phase": "VERIFICATION",
+        "system_id": "security_service",
+        "resource_id": "audit_record_989",
+        "operation": "VERIFY_RECORD_PRESENT",
+        "state": "PRESENT",
+        "evidence_id": "evidence_36"
+      }
+    ]
+  },
+  {
+    "case_id": "case_384",
+    "deletion_status": "INCOMPLETE",
+    "steps_json": [
+      {
+        "step_no": 1,
+        "phase": "FINDING",
+        "system_id": "export_service",
+        "resource_id": "export_9989",
+        "operation": "REPORT_REMAINING_RECORD",
+        "state": "PRESENT",
+        "evidence_id": "evidence_36"
+      },
+      {
+        "step_no": 2,
+        "phase": "FINDING",
+        "system_id": "search_service",
+        "resource_id": "search_7562",
+        "operation": "REPORT_REMAINING_RECORD",
+        "state": "PRESENT",
+        "evidence_id": "evidence_36"
+      },
+      {
+        "step_no": 3,
+        "phase": "REMEDIATION",
+        "system_id": "export_service",
+        "resource_id": "export_9989",
+        "operation": "DELETE_RECORD",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 4,
+        "phase": "REMEDIATION",
+        "system_id": "search_service",
+        "resource_id": "search_7562",
+        "operation": "DELETE_RECORD",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 5,
+        "phase": "VERIFICATION",
+        "system_id": "export_service",
+        "resource_id": "export_9989",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 6,
+        "phase": "VERIFICATION",
+        "system_id": "search_service",
+        "resource_id": "search_7562",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": ""
+      }
+    ]
+  },
+  {
+    "case_id": "case_387",
+    "deletion_status": "COMPLETE",
+    "steps_json": [
+      {
+        "step_no": 1,
+        "phase": "VERIFICATION",
+        "system_id": "account_service",
+        "resource_id": "account_3978",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": "evidence_36"
+      },
+      {
+        "step_no": 2,
+        "phase": "VERIFICATION",
+        "system_id": "backup_service",
+        "resource_id": "backup_1668",
+        "operation": "VERIFY_RECORD_PRESENT",
+        "state": "PRESENT",
+        "evidence_id": "evidence_36"
+      },
+      {
+        "step_no": 3,
+        "phase": "VERIFICATION",
+        "system_id": "security_service",
+        "resource_id": "audit_record_2536",
+        "operation": "VERIFY_RECORD_PRESENT",
+        "state": "PRESENT",
+        "evidence_id": "evidence_36"
+      }
+    ]
+  },
+  {
+    "case_id": "case_391",
+    "deletion_status": "INCOMPLETE",
+    "steps_json": [
+      {
+        "step_no": 1,
+        "phase": "FINDING",
+        "system_id": "account_service",
+        "resource_id": "account_4446",
+        "operation": "REPORT_REMAINING_RECORD",
+        "state": "PRESENT",
+        "evidence_id": "evidence_36"
+      },
+      {
+        "step_no": 2,
+        "phase": "FINDING",
+        "system_id": "search_service",
+        "resource_id": "search_9470",
+        "operation": "REPORT_REMAINING_RECORD",
+        "state": "PRESENT",
+        "evidence_id": "evidence_36"
+      },
+      {
+        "step_no": 3,
+        "phase": "REMEDIATION",
+        "system_id": "account_service",
+        "resource_id": "account_4446",
+        "operation": "DELETE_RECORD",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 4,
+        "phase": "REMEDIATION",
+        "system_id": "search_service",
+        "resource_id": "search_9470",
+        "operation": "DELETE_RECORD",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 5,
+        "phase": "VERIFICATION",
+        "system_id": "account_service",
+        "resource_id": "account_4446",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 6,
+        "phase": "VERIFICATION",
+        "system_id": "search_service",
+        "resource_id": "search_9470",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": ""
+      }
+    ]
+  },
+  {
+    "case_id": "case_392",
+    "deletion_status": "COMPLETE",
+    "steps_json": [
+      {
+        "step_no": 1,
+        "phase": "VERIFICATION",
+        "system_id": "account_service",
+        "resource_id": "account_1718",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": "evidence_36"
+      },
+      {
+        "step_no": 2,
+        "phase": "VERIFICATION",
+        "system_id": "security_service",
+        "resource_id": "audit_record_7510",
+        "operation": "VERIFY_RECORD_PRESENT",
+        "state": "PRESENT",
+        "evidence_id": "evidence_36"
+      }
+    ]
+  },
+  {
+    "case_id": "case_486",
+    "deletion_status": "COMPLETE",
+    "steps_json": [
+      {
+        "step_no": 1,
+        "phase": "VERIFICATION",
+        "system_id": "account_service",
+        "resource_id": "account_9031",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": "evidence_45"
+      },
+      {
+        "step_no": 2,
+        "phase": "VERIFICATION",
+        "system_id": "security_service",
+        "resource_id": "audit_record_5451",
+        "operation": "VERIFY_RECORD_PRESENT",
+        "state": "PRESENT",
+        "evidence_id": "evidence_45"
+      }
+    ]
+  },
+  {
+    "case_id": "case_489",
+    "deletion_status": "INCOMPLETE",
+    "steps_json": [
+      {
+        "step_no": 1,
+        "phase": "FINDING",
+        "system_id": "account_service",
+        "resource_id": "account_6654",
+        "operation": "REPORT_REMAINING_RECORD",
+        "state": "PRESENT",
+        "evidence_id": "evidence_45"
+      },
+      {
+        "step_no": 2,
+        "phase": "FINDING",
+        "system_id": "search_service",
+        "resource_id": "search_3426",
+        "operation": "REPORT_REMAINING_RECORD",
+        "state": "PRESENT",
+        "evidence_id": "evidence_45"
+      },
+      {
+        "step_no": 3,
+        "phase": "REMEDIATION",
+        "system_id": "account_service",
+        "resource_id": "account_6654",
+        "operation": "DELETE_RECORD",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 4,
+        "phase": "REMEDIATION",
+        "system_id": "search_service",
+        "resource_id": "search_3426",
+        "operation": "DELETE_RECORD",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 5,
+        "phase": "VERIFICATION",
+        "system_id": "account_service",
+        "resource_id": "account_6654",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": ""
+      },
+      {
+        "step_no": 6,
+        "phase": "VERIFICATION",
+        "system_id": "search_service",
+        "resource_id": "search_3426",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": ""
+      }
+    ]
+  },
+  {
+    "case_id": "case_491",
+    "deletion_status": "COMPLETE",
+    "steps_json": [
+      {
+        "step_no": 1,
+        "phase": "VERIFICATION",
+        "system_id": "account_service",
+        "resource_id": "account_7455",
+        "operation": "VERIFY_RECORD_ABSENT",
+        "state": "ABSENT",
+        "evidence_id": "evidence_45"
+      },
+      {
+        "step_no": 2,
+        "phase": "VERIFICATION",
+        "system_id": "security_service",
+        "resource_id": "audit_record_7073",
+        "operation": "VERIFY_RECORD_PRESENT",
+        "state": "PRESENT",
+        "evidence_id": "evidence_45"
+      }
+    ]
+  },
+  {
+    "case_id": "case_534",
+    "deletion_status": "NOT_APPLICABLE",
+    "steps_json": []
+  },
+  {
+    "case_id": "case_535",
+    "deletion_status": "NOT_APPLICABLE",
+    "steps_json": []
+  },
+  {
+    "case_id": "case_536",
+    "deletion_status": "NOT_APPLICABLE",
+    "steps_json": []
+  },
+  {
+    "case_id": "case_537",
+    "deletion_status": "NOT_APPLICABLE",
+    "steps_json": []
+  },
+  {
+    "case_id": "case_542",
+    "deletion_status": "NOT_APPLICABLE",
+    "steps_json": []
+  }
+]

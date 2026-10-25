@@ -1,0 +1,17 @@
+GHOSTTRACE — EMERGENCY SUBMISSION (2026-10-25)
+
+1. Back up your existing checkout. This package DOES NOT delete or overwrite your original repo.
+2. Copy UPDATED_CODE/* into your existing repo's code/ directory (preserving relative paths), or use CLEAN_PROJECT/ as a separate checkout.
+3. In PowerShell at the project root:
+   python -m unittest discover -s code/tests -v
+   python code/emergency_submit.py
+   python code/validate_output.py
+   python code/evaluate.py
+4. The generated root output.csv must have 518 rows; validator checks structural format, not semantic truth.
+5. Submit the root output.csv and supplied code.zip as applicable to the portal instructions.
+6. Include genuine original log.txt or real development conversation export if requested. Never fabricate transcript logs.
+7. Do not push local .env files, passwords, MongoDB URI or private credentials.
+
+IMPORTANT: The emergency CSV has 255 unverified fallback rows marked INCOMPLETE with empty steps. It is not evidence-backed for all requests, and step accuracy on public samples remains poor. The strict code/main.py --audit correctly refuses to certify unresolved cases.
+
+Challenge: https://www.hackerrank.com/contests/hackerrank-orchestrate-october26/challenges/ghost-data-still-exists

@@ -1,0 +1,1523 @@
+{
+  "total_requests": 518,
+  "predicted": 24,
+  "review_required": 494,
+  "status_counts": {
+    "COMPLETE": 11,
+    "INCOMPLETE": 8,
+    "NOT_APPLICABLE": 5
+  },
+  "structured_observations": 229,
+  "warnings": [
+    "evidence_04: .png requires independent extraction; no claims inferred",
+    "evidence_09: .png requires independent extraction; no claims inferred",
+    "evidence_14: .png requires independent extraction; no claims inferred",
+    "evidence_18: .pdf requires independent extraction; no claims inferred",
+    "evidence_19: .png requires independent extraction; no claims inferred",
+    "evidence_23: .png requires independent extraction; no claims inferred",
+    "evidence_27: .pdf requires independent extraction; no claims inferred",
+    "evidence_28: .png requires independent extraction; no claims inferred",
+    "evidence_32: .png requires independent extraction; no claims inferred",
+    "evidence_37: .png requires independent extraction; no claims inferred",
+    "evidence_42: .png requires independent extraction; no claims inferred",
+    "evidence_46: .png requires independent extraction; no claims inferred",
+    "evidence_55: .pdf requires independent extraction; no claims inferred",
+    "evidence_58: .pdf requires independent extraction; no claims inferred",
+    "evidence_60: .png requires independent extraction; no claims inferred"
+  ],
+  "review_cases": {
+    "case_33": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_34": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_35": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_36": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_37": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_38": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_39": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_40": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_41": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_42": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_43": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_44": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_45": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_46": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_47": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_48": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_49": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_50": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_51": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_52": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_53": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_54": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_55": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_56": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_57": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_58": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_59": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_60": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_61": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_62": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_63": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_64": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_65": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_66": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_67": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_68": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_69": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_70": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_71": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_72": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_73": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_74": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_75": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_76": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_77": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_78": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_79": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_80": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_81": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_82": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_83": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_84": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_85": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_86": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_87": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_88": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_89": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_90": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_91": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_92": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_93": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_94": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_95": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_96": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_97": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_98": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_99": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_100": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_101": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_102": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_103": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_104": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_105": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_106": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_107": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_108": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_109": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_110": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_111": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_112": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_113": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_114": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_115": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_116": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_117": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_118": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_119": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_120": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_121": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_122": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_123": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_124": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_125": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_126": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_127": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_128": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_129": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_130": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_131": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_132": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_133": [
+      "Unknown policy category on integration_service/data_flow_4227: DATA_FLOW"
+    ],
+    "case_134": [
+      "unknown evidence result for analytics_platform/analytics_7772; cannot infer state",
+      "Unknown policy category on integration_service/data_flow_7812: DATA_FLOW",
+      "unknown evidence result for support_platform/support_4410; cannot infer state"
+    ],
+    "case_136": [
+      "unknown evidence result for support_platform/support_4442; cannot infer state"
+    ],
+    "case_138": [
+      "unknown evidence result for support_platform/support_2716; cannot infer state"
+    ],
+    "case_140": [
+      "unknown evidence result for analytics_platform/analytics_3006; cannot infer state",
+      "Unknown policy category on integration_service/data_flow_9030: DATA_FLOW",
+      "unknown evidence result for support_platform/support_5323; cannot infer state"
+    ],
+    "case_142": [
+      "unknown evidence result for support_platform/support_771; cannot infer state"
+    ],
+    "case_143": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_144": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_145": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_146": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_147": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_148": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_149": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_150": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_151": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_152": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_153": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_154": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_155": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_156": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_157": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_158": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_159": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_160": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_161": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_162": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_163": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_164": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_165": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_166": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_167": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_168": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_169": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_170": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_171": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_172": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_173": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_174": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_175": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_176": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_177": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_178": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_179": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_180": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_181": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_182": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_183": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_184": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_185": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_186": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_187": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_188": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_189": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_190": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_191": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_192": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_193": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_194": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_195": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_196": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_197": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_198": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_199": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_200": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_201": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_202": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_203": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_204": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_205": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_206": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_207": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_208": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_209": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_210": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_211": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_212": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_213": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_214": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_215": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_216": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_217": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_218": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_219": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_220": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_221": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_222": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_223": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_224": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_225": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_226": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_227": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_228": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_229": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_230": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_231": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_232": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_233": [
+      "Unknown policy category on integration_service/data_flow_6754: DATA_FLOW"
+    ],
+    "case_234": [
+      "unknown evidence result for support_platform/support_1254; cannot infer state"
+    ],
+    "case_235": [
+      "Unknown policy category on integration_service/data_flow_593: DATA_FLOW"
+    ],
+    "case_236": [
+      "Unknown policy category on integration_service/data_flow_7352: DATA_FLOW"
+    ],
+    "case_241": [
+      "Unknown policy category on integration_service/data_flow_4568: DATA_FLOW"
+    ],
+    "case_242": [
+      "Unknown policy category on integration_service/data_flow_4475: DATA_FLOW"
+    ],
+    "case_243": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_244": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_245": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_246": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_247": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_248": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_249": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_250": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_251": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_252": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_253": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_254": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_255": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_256": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_257": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_258": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_259": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_260": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_261": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_262": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_263": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_264": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_265": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_266": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_267": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_268": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_269": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_270": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_271": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_272": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_273": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_274": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_275": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_276": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_277": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_278": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_279": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_280": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_281": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_282": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_283": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_284": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_285": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_286": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_287": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_288": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_289": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_290": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_291": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_292": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_293": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_294": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_295": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_296": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_297": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_298": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_299": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_300": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_301": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_302": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_303": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_304": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_305": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_306": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_307": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_308": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_309": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_310": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_311": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_312": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_313": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_314": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_315": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_316": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_317": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_318": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_319": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_320": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_321": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_322": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_323": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_324": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_325": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_326": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_327": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_328": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_329": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_330": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_331": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_332": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_334": [
+      "unknown evidence result for support_platform/support_214; cannot infer state"
+    ],
+    "case_335": [
+      "Unknown policy category on integration_service/data_flow_7452: DATA_FLOW"
+    ],
+    "case_337": [
+      "Unknown policy category on integration_service/data_flow_5200: DATA_FLOW"
+    ],
+    "case_338": [
+      "Unknown policy category on integration_service/data_flow_9392: DATA_FLOW"
+    ],
+    "case_340": [
+      "Unknown policy category on integration_service/data_flow_5916: DATA_FLOW"
+    ],
+    "case_341": [
+      "unknown evidence result for analytics_platform/analytics_183; cannot infer state"
+    ],
+    "case_342": [
+      "unknown evidence result for support_platform/support_3399; cannot infer state"
+    ],
+    "case_343": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_344": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_345": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_346": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_347": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_348": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_349": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_350": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_351": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_352": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_353": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_354": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_355": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_356": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_357": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_358": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_359": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_360": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_361": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_362": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_363": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_364": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_365": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_366": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_367": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_368": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_369": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_370": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_371": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_372": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_373": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_374": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_375": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_376": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_377": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_378": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_379": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_380": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_381": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_382": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_385": [
+      "Unknown policy category on integration_service/data_flow_3913: DATA_FLOW"
+    ],
+    "case_386": [
+      "unknown evidence result for analytics_platform/analytics_4420; cannot infer state",
+      "Unknown policy category on integration_service/data_flow_7623: DATA_FLOW",
+      "unknown evidence result for support_platform/support_1693; cannot infer state"
+    ],
+    "case_388": [
+      "unknown evidence result for analytics_platform/analytics_2784; cannot infer state",
+      "Unknown policy category on integration_service/data_flow_3250: DATA_FLOW",
+      "unknown evidence result for support_platform/support_8378; cannot infer state"
+    ],
+    "case_389": [
+      "unknown evidence result for analytics_platform/analytics_5354; cannot infer state"
+    ],
+    "case_390": [
+      "Unknown policy category on integration_service/data_flow_5737: DATA_FLOW"
+    ],
+    "case_393": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_394": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_395": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_396": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_397": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_398": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_399": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_400": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_401": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_402": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_403": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_404": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_405": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_406": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_407": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_408": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_409": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_410": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_411": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_412": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_413": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_414": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_415": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_416": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_417": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_418": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_419": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_420": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_421": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_422": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_423": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_424": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_425": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_426": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_427": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_428": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_429": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_430": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_431": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_432": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_433": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_434": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_435": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_436": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_437": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_438": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_439": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_440": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_441": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_442": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_443": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_444": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_445": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_446": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_447": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_448": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_449": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_450": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_451": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_452": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_453": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_454": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_455": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_456": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_457": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_458": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_459": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_460": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_461": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_462": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_463": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_464": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_465": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_466": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_467": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_468": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_469": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_470": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_471": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_472": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_473": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_474": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_475": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_476": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_477": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_478": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_479": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_480": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_481": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_482": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_483": [
+      "Unknown policy category on integration_service/data_flow_3669: DATA_FLOW",
+      "unknown evidence result for support_platform/support_4364; cannot infer state"
+    ],
+    "case_484": [
+      "unknown evidence result for support_platform/support_7973; cannot infer state"
+    ],
+    "case_485": [
+      "unknown evidence result for analytics_platform/analytics_1981; cannot infer state"
+    ],
+    "case_487": [
+      "unknown evidence result for analytics_platform/analytics_7818; cannot infer state",
+      "unknown evidence result for support_platform/support_5361; cannot infer state"
+    ],
+    "case_488": [
+      "Unknown policy category on integration_service/data_flow_3755: DATA_FLOW"
+    ],
+    "case_490": [
+      "unknown evidence result for support_platform/support_4247; cannot infer state"
+    ],
+    "case_492": [
+      "unknown evidence result for analytics_platform/analytics_1575; cannot infer state",
+      "unknown evidence result for support_platform/support_6737; cannot infer state"
+    ],
+    "case_493": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_494": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_495": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_496": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_497": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_498": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_499": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_500": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_501": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_502": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_503": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_504": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_505": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_506": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_507": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_508": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_509": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_510": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_511": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_512": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_513": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_514": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_515": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_516": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_517": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_518": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_519": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_520": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_521": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_522": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_523": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_524": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_525": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_526": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_527": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_528": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_529": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_530": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_531": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_532": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_533": [
+      "request-intent ambiguous, cannot authorize deletion automatically"
+    ],
+    "case_538": [
+      "request-intent ambiguous, cannot authorize deletion automatically"
+    ],
+    "case_539": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_540": [
+      "request-intent ambiguous, cannot authorize deletion automatically"
+    ],
+    "case_541": [
+      "request-intent ambiguous, cannot authorize deletion automatically"
+    ],
+    "case_543": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_544": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_545": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_546": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_547": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_548": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_549": [
+      "no attributable structured evidence at audit time"
+    ],
+    "case_550": [
+      "no attributable structured evidence at audit time"
+    ]
+  }
+}

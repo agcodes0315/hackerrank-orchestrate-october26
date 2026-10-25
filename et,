@@ -1,0 +1,59 @@
+warning: in the working copy of 'code/engine.py', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/code/engine.py b/code/engine.py[m
+[1mindex f73900a..fe286d0 100644[m
+[1m--- a/code/engine.py[m
+[1m+++ b/code/engine.py[m
+[36m@@ -49,17 +49,43 @@[m [mdef tokens(text):[m
+ [m
+ [m
+ def deletion_intent(text):[m
+[31m-    """Tri-state (True, False, None); never treat uncertain messages as authorized."""[m
+[32m+[m[32m    """Classify explicit deletion intent without trusting reported workflow status.[m
+[32m+[m
+[32m+[m[32m    Multilingual markers cover unambiguous account-erasure requests. Ambiguous[m
+[32m+[m[32m    verification or historical descriptions stay None unless remediation is asked.[m
+[32m+[m[32m    """[m
+     t = norm(text)[m
+[31m-    negatives = [r'\b(?:do not|don\'t|never|without)\s+(?:delete|erase|remove|close)\b',[m
+[31m-                 r'\b(?:not|no)\s+(?:requesting|asking for)\s+(?:deletion|erasure)\b',[m
+[31m-                 r'\b(?:instead of|rather than)\s+(?:deleting|erasing)\b',[m
+[31m-                 r'\b(?:keep|retain)\s+my\s+(?:account|data)\b'][m
+[31m-    if any(re.search(p,t) for p in negatives): return False[m
+[31m-    if any(re.search(p,t) for p in [r'\b(?:delete|erase|erasure|deletion|forget me|right to be forgotten)\b',[m
+[31m-                                     r'\b(?:close|terminate)\s+(?:my|the)\s+account\b',[m
+[31m-                                     r'\bremove\s+(?:all\s+)?(?:my|personal|account)\s+(?:data|information|details)\b']): return True[m
+[31m-    if any(re.search(p,t) for p in [r'\b(?:export|download|correct|update|access|unsubscribe|opt out|opt-out)\b']): return False[m
+[32m+[m[32m    negatives = [[m
+[32m+[m[32m        r"\b(?:do not|don't|never|without)\s+(?:delete|erase|remove|close)\b",[m
+[32m+[m[32m        r"\b(?:not|no)\s+(?:requesting|asking for)\s+(?:deletion|erasure)\b",[m
+[32m+[m[32m        r"\b(?:instead of|rather than)\s+(?:deleting|erasing)\b",[m
+[32m+[m[32m        r"\b(?:keep|retain)\s+my\s+(?:account|data)\b",[m
+[32m+[m[32m    ][m
+[32m+[m[32m    if any(re.search(p, t) for p in negatives):[m
+[32m+[m[32m        return False[m
+[32m+[m
+[32m+[m[32m    affirmative = [[m
+[32m+[m[32m        r"\b(?:delete|erase|erasure|deletion|forget me|right to be forgotten)\b",[m
+[32m+[m[32m        r"\b(?:deleting|deleted)\s+my\s+account\b",[m
+[32m+[m[32m        r"\b(?:close|terminate)\s+(?:my|the|this)\s+account\b",[m
+[32m+[m[32m        r"\b(?:account|profile)\s+(?:to\s+be\s+)?(?:permanently\s+)?(?:deleted|erased|removed)\b",[m
+[32m+[m[32m        r"\b(?:account|profile)\b[^.!?]{0,90}\bto be (?:permanently )?(?:erased|deleted|removed)\b",[m
+[32m+[m[32m        r"\bwould like (?:it|the account|my account) (?:to be )?(?:permanently )?(?:deleted|erased)\b",[m
+[32m+[m[32m        r"\bremove\s+(?:(?:all|any|remaining)\s+)?(?:my|personal|account)\s+(?:data|information|details|records)\b",[m
+[32m+[m[32m        r"\bremove\s+(?:my|the|this)\s+(?:account|profile)\b",[m
+[32m+[m[32m        r"\bremove\s+(?:records|copies|traces)\s+(?:linked|tied|relating|associated)\b",[m
+[32m+[m[32m        r"\b(?:remove|clean)\s+(?:my\s+)?(?:name|contact details|personal details)\b",[m
+[32m+[m[32m        # Strong account-deletion requests in French, Spanish, Portuguese.[m
+[32m+[m[32m        r"\b(?:suppression d[eé]finitive|supprimer (?:mon|le) compte|effacer (?:mon|mes))\b",[m
+[32m+[m[32m        r"\b(?:eliminaci[oó]n permanente|eliminar mi cuenta|eliminaci[oó]n de (?:mi|la) cuenta)\b",[m
+[32m+[m[32m        r"\b(?:exclus[aã]o permanente|excluir (?:minha|a) conta)\b",[m
+[32m+[m[32m        # Exact strong account-deletion expressions (Japanese / Korean).[m
+[32m+[m[32m        r"アカウントの完全な削除", r"アカウント.*削除を依頼", r"계정의 영구 삭제", r"계정.*삭제를 요청",[m
+[32m+[m[32m    ][m
+[32m+[m[32m    if any(re.search(p, t) for p in affirmative):[m
+[32m+[m[32m        return True[m
+[32m+[m[32m    if re.search(r"\b(?:export|download|correct|update|access|unsubscribe|opt out|opt-out)\b", t):[m
+[32m+[m[32m        return False[m
+     return None[m
+ [m
+ [m

@@ -1,0 +1,1541 @@
+{
+  "warning": "These rows have not been independently verified and use a structurally valid fallback, not a proven deletion verdict.",
+  "unresolved_cases": [
+    {
+      "case_id": "case_33",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_35",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_36",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_37",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_38",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_39",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_40",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_41",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_42",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_45",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_50",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_52",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_53",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_54",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_55",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_56",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_57",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_58",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_59",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_60",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_61",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_62",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_63",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_83",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_84",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_85",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_86",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_87",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_88",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_89",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_90",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_91",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_92",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_103",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_104",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_105",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_106",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_107",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_108",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_109",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_110",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_111",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_112",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_123",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_124",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_125",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_126",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_127",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_128",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_129",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_130",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_131",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_132",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_134",
+      "reasons": [
+        "unknown evidence result for analytics_platform/analytics_7772; cannot infer state",
+        "unknown evidence result for support_platform/support_4410; cannot infer state"
+      ]
+    },
+    {
+      "case_id": "case_136",
+      "reasons": [
+        "unknown evidence result for support_platform/support_4442; cannot infer state"
+      ]
+    },
+    {
+      "case_id": "case_138",
+      "reasons": [
+        "unknown evidence result for support_platform/support_2716; cannot infer state"
+      ]
+    },
+    {
+      "case_id": "case_140",
+      "reasons": [
+        "unknown evidence result for analytics_platform/analytics_3006; cannot infer state",
+        "unknown evidence result for support_platform/support_5323; cannot infer state"
+      ]
+    },
+    {
+      "case_id": "case_142",
+      "reasons": [
+        "unknown evidence result for support_platform/support_771; cannot infer state"
+      ]
+    },
+    {
+      "case_id": "case_153",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_154",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_155",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_156",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_157",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_158",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_159",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_160",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_161",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_162",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_173",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_174",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_175",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_176",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_177",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_178",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_179",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_180",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_181",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_182",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_203",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_204",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_205",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_206",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_207",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_208",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_209",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_210",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_211",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_212",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_234",
+      "reasons": [
+        "unknown evidence result for support_platform/support_1254; cannot infer state"
+      ]
+    },
+    {
+      "case_id": "case_243",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_244",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_245",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_246",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_247",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_248",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_249",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_250",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_251",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_252",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_253",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_254",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_255",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_256",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_257",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_258",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_259",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_260",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_261",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_262",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_263",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_264",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_265",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_266",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_267",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_268",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_269",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_270",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_271",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_272",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_288",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_293",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_294",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_295",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_296",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_297",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_298",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_299",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_300",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_301",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_302",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_303",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_304",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_305",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_306",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_307",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_308",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_309",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_310",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_311",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_312",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_334",
+      "reasons": [
+        "unknown evidence result for support_platform/support_214; cannot infer state"
+      ]
+    },
+    {
+      "case_id": "case_341",
+      "reasons": [
+        "unknown evidence result for analytics_platform/analytics_183; cannot infer state"
+      ]
+    },
+    {
+      "case_id": "case_342",
+      "reasons": [
+        "unknown evidence result for support_platform/support_3399; cannot infer state"
+      ]
+    },
+    {
+      "case_id": "case_353",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_354",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_355",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_356",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_357",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_358",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_359",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_360",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_361",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_362",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_386",
+      "reasons": [
+        "unknown evidence result for analytics_platform/analytics_4420; cannot infer state",
+        "unknown evidence result for support_platform/support_1693; cannot infer state"
+      ]
+    },
+    {
+      "case_id": "case_388",
+      "reasons": [
+        "unknown evidence result for analytics_platform/analytics_2784; cannot infer state",
+        "unknown evidence result for support_platform/support_8378; cannot infer state"
+      ]
+    },
+    {
+      "case_id": "case_389",
+      "reasons": [
+        "unknown evidence result for analytics_platform/analytics_5354; cannot infer state"
+      ]
+    },
+    {
+      "case_id": "case_393",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_394",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_395",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_396",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_397",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_398",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_399",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_400",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_401",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_402",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_403",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_404",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_405",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_406",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_407",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_408",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_409",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_410",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_411",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_412",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_433",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_434",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_435",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_436",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_437",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_438",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_439",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_440",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_441",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_442",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_443",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_444",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_445",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_446",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_447",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_448",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_449",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_450",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_451",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_452",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_453",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_454",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_455",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_456",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_457",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_458",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_459",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_460",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_461",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_462",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_473",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_474",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_475",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_476",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_477",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_478",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_479",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_480",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_481",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_482",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_483",
+      "reasons": [
+        "unknown evidence result for support_platform/support_4364; cannot infer state"
+      ]
+    },
+    {
+      "case_id": "case_484",
+      "reasons": [
+        "unknown evidence result for support_platform/support_7973; cannot infer state"
+      ]
+    },
+    {
+      "case_id": "case_485",
+      "reasons": [
+        "unknown evidence result for analytics_platform/analytics_1981; cannot infer state"
+      ]
+    },
+    {
+      "case_id": "case_487",
+      "reasons": [
+        "unknown evidence result for analytics_platform/analytics_7818; cannot infer state",
+        "unknown evidence result for support_platform/support_5361; cannot infer state"
+      ]
+    },
+    {
+      "case_id": "case_490",
+      "reasons": [
+        "unknown evidence result for support_platform/support_4247; cannot infer state"
+      ]
+    },
+    {
+      "case_id": "case_492",
+      "reasons": [
+        "unknown evidence result for analytics_platform/analytics_1575; cannot infer state",
+        "unknown evidence result for support_platform/support_6737; cannot infer state"
+      ]
+    },
+    {
+      "case_id": "case_493",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_494",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_495",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_496",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_497",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_498",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_499",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_500",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_501",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_502",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_503",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_504",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_505",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_506",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_507",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_508",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_509",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_510",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_511",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_512",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_533",
+      "reasons": [
+        "request-intent ambiguous, cannot authorize deletion automatically"
+      ]
+    },
+    {
+      "case_id": "case_538",
+      "reasons": [
+        "request-intent ambiguous, cannot authorize deletion automatically"
+      ]
+    },
+    {
+      "case_id": "case_539",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_540",
+      "reasons": [
+        "request-intent ambiguous, cannot authorize deletion automatically"
+      ]
+    },
+    {
+      "case_id": "case_541",
+      "reasons": [
+        "request-intent ambiguous, cannot authorize deletion automatically"
+      ]
+    },
+    {
+      "case_id": "case_543",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_544",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_545",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_546",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_547",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_548",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_549",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    },
+    {
+      "case_id": "case_550",
+      "reasons": [
+        "no attributable structured evidence at audit time"
+      ]
+    }
+  ]
+}

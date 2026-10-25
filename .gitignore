@@ -1,4 +1,8 @@
 __pycache__/
 *.pyc
-ghosttrace_*.json
+.venv/
 inspection_report.json
+ghosttrace_*.json
+ghosttrace_*.jsonl
+output.csv
+*.zip
